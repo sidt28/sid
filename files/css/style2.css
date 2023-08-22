@@ -107,7 +107,8 @@ span{
 }
 
 .home-img img{
-    margin-left: 5rem;
+    text-align: right;
+    margin-right: rem;
     height: 35vmax;
     animation: floating 4s ease-in-out infinite;
 }
