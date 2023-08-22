@@ -1,0 +1,34 @@
+:root{
+    --bg-color: rgb(28, 1, 20);
+    --second-bg-color: rgb(90, 7, 70);
+    --text-color: rgb(255, 255, 255);
+    --main-color: rgb(193, 14, 169);
+    --third-bg-color:rgba(252, 53, 205, 0.913);
+    --forth-bg-color:rgb(255, 106, 220);
+    --high:#fcc203;
+}
+.navbar a:hover{
+    color: aliceblue;
+}
+.web_dev{
+    background-color: var(--text-color);
+}
+.web_dev::after {
+    content: "";
+    position:relative;
+    display: block;
+    width: 10rem;
+    height: .5rem;
+    background: var(--high);
+    bottom: 0;
+    left: calc(47% - 25px);
+}
+
+.web_dev h1{
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color:var(--main-color);
+    margin-bottom: 10px;
+}
+
