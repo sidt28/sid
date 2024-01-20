@@ -12,7 +12,7 @@ menuicon.onclick = () => {
 // active section
 
 const typed = new Typed('.multitext', {
-    strings: ['FullStack Developer', 'ML Practitioner', 'Big Data Analyst'],
+    strings: ['FullStack Developer', 'ML Enthusiast'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
